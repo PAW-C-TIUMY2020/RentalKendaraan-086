@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentalKendaraan_086", "RentalKendaraan_086\RentalKendaraan_086.csproj", "{99E88454-D7DC-4686-A4D6-E7A6D5C57278}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E88454-D7DC-4686-A4D6-E7A6D5C57278}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E88454-D7DC-4686-A4D6-E7A6D5C57278}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E88454-D7DC-4686-A4D6-E7A6D5C57278}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E88454-D7DC-4686-A4D6-E7A6D5C57278}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {818A0D91-DA02-41CE-9D2B-4AC935EDFE07}
+	EndGlobalSection
+EndGlobal
