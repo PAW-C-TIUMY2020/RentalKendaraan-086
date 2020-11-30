@@ -32,6 +32,7 @@ namespace RentalKendaraan_086
             new PhysicalFileProvider(
             Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
 
+
             services.Configure<CookiePolicyOptions>(options =>
             {
                 // This lambda determines whether user consent for non-essential cookies is needed for a given request.

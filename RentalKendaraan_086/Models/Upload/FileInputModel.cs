@@ -10,4 +10,5 @@ namespace RentalKendaraan_086.Models.Upload
     {
         public IFormFile FileToUpload { get; set; }
     }
+
 }

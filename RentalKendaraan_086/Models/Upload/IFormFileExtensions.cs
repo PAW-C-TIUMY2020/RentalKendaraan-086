@@ -29,5 +29,6 @@ namespace RentalKendaraan_086.Models.Upload
             await file.CopyToAsync(filestream);
             return filestream.ToArray();
         }
+
     }
 }

@@ -28,7 +28,7 @@ namespace RentalKendaraan_086.Controllers
                 return Content("file not selected");
             var path = Path.Combine(
             Directory.GetCurrentDirectory(), "wwwroot",
-           file.GetFilename());
+            file.GetFilename());
             using (var stream = new FileStream(path, FileMode.Create))
             {
                 await file.CopyToAsync(stream);
@@ -75,11 +75,11 @@ namespace RentalKendaraan_086.Controllers
             foreach (var item in
            this.fileProvider.GetDirectoryContents(""))
             {
-                model.files.Add(
+                model.Files.Add(
                 new FileDetails
                 {
-                    Name = item.Name,
-                    Path =
+                    name = item.Name,
+                    path =
                item.PhysicalPath
                 });
             }
